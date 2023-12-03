@@ -7,12 +7,12 @@ __________________________________________
 ## Simple Printer App for Ubuntu Touch wich allow you to scan printer over network and print documents
 
 - Developer: [Thomas Büning](https://github.com/tbuen/print-ut)
-- Maintainer: Ruben Carneiro
+- Maintainer: [Ruben Carneiro](https://github.com/rubencarneiro/print-ut)
 
 ## License
-___________________________________________
 
-Copyright (C) 2022  Thomas Büning
+Copyright (C) 2022 Thomas Büning
+
 Copyright (C) 2023 - 2024 Rúben Carneiro
 
 This program is free software: you can redistribute it and/or modify
