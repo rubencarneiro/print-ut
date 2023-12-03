@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2022  Thomas Büning
+ * Copyright (C) 2023 - 2024 Rúben Carneiro
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,14 +16,14 @@
  */
 
 import QtQuick 2.7
-import Ubuntu.Components 1.3
-import Ubuntu.Components.Popups 1.3
+import Lomiri.Components 1.3
+import Lomiri.Components.Popups 1.3
 import "components"
 
 MainView {
     id: root
     objectName: 'mainView'
-    applicationName: 'print-ut.tbuen'
+    applicationName: 'print-ut.rubencarneiro'
     automaticOrientation: true
 
     width: units.gu(45)

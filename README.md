@@ -27,6 +27,6 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-
+<a href="https://open-store.io/app/aliexpress.rubencarneiro"><img src="https://open-store.io/badges/en_US.svg"  width="200" alt="OpenStore" /></a>
 
 

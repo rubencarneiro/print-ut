@@ -1,5 +1,5 @@
 {
-    "name": "print-ut.tbuen",
+    "name": "print-ut.rubencarneiro",
     "description": "Simple Printer App",
     "architecture": "@CLICK_ARCH@",
     "title": "SimplePrint",
@@ -9,7 +9,7 @@
             "desktop":  "print-ut.desktop"
         }
     },
-    "version": "0.1.0",
-    "maintainer": "Thomas Büning <buening@online.de>",
+    "version": "0.1.1",
+    "maintainer": "Rúben Carneiro <rubencarneiro01@gmail.com>",
     "framework" : "@CLICK_FRAMEWORK@"
 }

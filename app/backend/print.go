@@ -49,7 +49,7 @@ func Print(file string, prt Printer) chan error {
 		req.File = f
 		req.FileSize = int(i.Size())
 
-		http := ipp.NewHttpAdapter(prt.IP, prt.Port, "", "", false)
+		http := ipp.NewHttpAdapter(prt.IP, prt.Port, "", "", true)
 
 		uri := http.GetHttpUri("", prt.Queue)
 

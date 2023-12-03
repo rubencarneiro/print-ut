@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2022  Thomas Büning
+ * Copyright (C) 2023 - 2024 Rúben Carneiro
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,8 +16,8 @@
  */
 
 import QtQuick 2.7
-import Ubuntu.Components 1.3
-import Ubuntu.Content 1.3 as ContentHub
+import Lomiri.Components 1.3
+import Lomiri.Content 1.3 as ContentHub
 import "../components"
 
 Page {
@@ -26,6 +27,16 @@ Page {
     header: PageHeader {
         id: header
         title: "SimplePrint"
+        trailingActionBar {
+            actions: [
+                Action {
+                    iconName: "info"
+                    text: "About"
+                    onTriggered: pageStack.push(Qt.resolvedUrl("About.qml"))
+                }
+            ]
+            numberOfSlots: 2
+        }
     }
 
     WaitingBar {
